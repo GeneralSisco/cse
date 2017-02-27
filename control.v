@@ -8,13 +8,11 @@ module control (
     );
 	 
 	localparam [2:0]	SHIFTorADD_SUB	= 3'b000, // 
-							MOVE_COMPR		= 3'b001,
-							ALUorLD_SR		= 3'b010,
-							imm_LD_SR		= 3'b011,
-							LD_SRorSP		= 3'b100,	
+							MOVE_COMPR	= 3'b001,
+							ALUorLD_SR	= 3'b010,
+							imm_LD_SR	= 3'b011,
+							LD_SRorSP	= 3'b100,	
 							LD_ADDR		= 3'b101,
 							COND_BRANCH	= 3'b110,
 							UNCOND_BRANCH	= 3'b111;
-	
-
 endmodule 
